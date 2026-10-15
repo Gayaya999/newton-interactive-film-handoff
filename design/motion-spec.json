@@ -1,0 +1,32 @@
+{
+  "authority": "04_动效与声音设计.md",
+  "easing": {
+    "enter": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "exit": "cubic-bezier(0.4, 0, 1, 1)",
+    "settle": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+    "fade": "linear"
+  },
+  "durationsMs": {
+    "hoverEnter": 140,
+    "hoverExit": 100,
+    "press": 80,
+    "pressRestore": 120,
+    "stopSelect": 180,
+    "choiceEnter": 240,
+    "choiceHold": 180,
+    "paperEnter": 320,
+    "paperSnap": 160,
+    "record": 140,
+    "revision": 300,
+    "result": 220,
+    "toolIdle": 2500
+  },
+  "maximumDisplacementPx": {
+    "ordinaryPress": 1,
+    "choiceEnter": 6,
+    "paperEnter": 8
+  },
+  "audio": "preserve-original-track; one-audible-source; silent-wait-without-user-provided-stem",
+  "synchronization": "media currentTime and validated ended, never page-wall-clock",
+  "reducedMotion": "remove-translation-and-sequencing; <=100ms-fade; video-baked-motion-remains"
+}

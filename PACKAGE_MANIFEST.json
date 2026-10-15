@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "package": "牛顿_互动电影_Claude交接包_2026-10-15",
+  "created": "2026-10-15",
+  "status": "handoff-not-new-game",
+  "file_count": 74,
+  "total_bytes": 306230661,
+  "files": [
+    {
+      "path": "00_先读这里.md",
+      "bytes": 3849,
+      "sha256": "9e077dec1ca143975e5ea3c45c1650a24da3a03cbb19912cc3c8d51325aa4fb5"
+    },
+    {
+      "path": "01_交给Claude的完整提示词.md",
+      "bytes": 5580,
+      "sha256": "62a60c2984818ffecb56a78866020fb359e8d1a3a861f80e1bbf147ee4b42ebd"
+    },
+    {
+      "path": "02_美术排版与UI设计方案.md",
+      "bytes": 8912,
+      "sha256": "cf43da20ff978252a38358580c1cab50490a871b5576507f66c7c6fe1ae16553"
+    },
+    {
+      "path": "03_剧情交互与小游戏.md",
+      "bytes": 16663,
+      "sha256": "7923954341e02ce28a40086895f23f0634af79d222163f1b235cdec546f58eb2"
+    },
+    {
+      "path": "04_动效与声音设计.md",
+      "bytes": 14275,
+      "sha256": "80a36b4b147efbd1b46663037427b77c8ef887c7defd2fed2258148ef477d6d4"
+    },
+    {
+      "path": "05_实现计划与验收.md",
+      "bytes": 14807,
+      "sha256": "376dd93ede176abcea22117d6c59a80a65e7fd3356d1f1960da19dfcc38947cf"
+    },
+    {
+      "path": "06_镜头剪辑与科学修正.md",
+      "bytes": 11998,
+      "sha256": "48e285a47d9898af1f90485a8cce310473fe639e01fc78109005baebb8389c25"
+    },
+    {
+      "path": "assets/fonts/OFL-NotoSansSC.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/noto_sans_sc_subset.ttf",
+      "bytes": 272844,
+      "sha256": "c8c5a65a58cc07e368849b541a662a353f44e45f1fd7fc0c921c11e05efaf5b5"
+    },
+    {
+      "path": "assets/source-video/branches-original.mov",
+      "bytes": 72819095,
+      "sha256": "14bcccf6f18dbd19d39176183ee61e5cfa4cd6d84b7c3ccdfde443a1eb778f08"
+    },
+    {
+      "path": "assets/source-video/main-original.mov",
+      "bytes": 181437959,
+      "sha256": "1a4c9b0e3cdf9b25e9a19a0d44cd8ee17dccfcda7617f72b9eb051a032246453"
+    },
+    {
+      "path": "assets/stills/cover.jpg",
+      "bytes": 108256,
+      "sha256": "8ddb9c570379c5de36e1542b3872e54ff10a36f59aa54120941d6508491c1171"
+    },
+    {
+      "path": "assets/stills/ending.jpg",
+      "bytes": 106681,
+      "sha256": "afd51e6354e76eaeec40d8ed2cd5a1142e10a487b0ac466eaed8133156e2b68b"
+    },
+    {
+      "path": "assets/stills/hypothesis.jpg",
+      "bytes": 143042,
+      "sha256": "bbf5fe93b431196e161defe8b397c2a0e58103794a10ab20ce107cf4aa6d1d65"
+    },
+    {
+      "path": "assets/stills/reciprocity.jpg",
+      "bytes": 83329,
+      "sha256": "6ac127892d354afe22007ebaac6b6a7ff6ed39658e55e7b5ec3dd0e2c36dcf86"
+    },
+    {
+      "path": "assets/stills/speed.jpg",
+      "bytes": 132491,
+      "sha256": "6553b76befbc2fdd5f20c4f6da6cd5aaf385b66f68a6cdf0c5069808d4b7576d"
+    },
+    {
+      "path": "assets/video/accept.mp4",
+      "bytes": 1333653,
+      "sha256": "c829f069213706221da149f15b66839eae607c0817c452ffc3a5653735bad1ce"
+    },
+    {
+      "path": "assets/video/confirmation.mp4",
+      "bytes": 2393056,
+      "sha256": "7940668efceee77fe95db3a195414a77c162e97a493336c58476a65ddaab82ec"
+    },
+    {
+      "path": "assets/video/distance.mp4",
+      "bytes": 429437,
+      "sha256": "179cf097fafb796620a48bb935e97e2dd87aa6ba0262b13136034ed852b3bc6d"
+    },
+    {
+      "path": "assets/video/ending.mp4",
+      "bytes": 2725497,
+      "sha256": "523eb24faf77c8b79cc2305c169482481894fd7ed20fec11ad962b7bf1ed43ce"
+    },
+    {
+      "path": "assets/video/high.mp4",
+      "bytes": 1013787,
+      "sha256": "f3ee855664dcacd43d6f36a38400cf48f394ecddef594d99feb1df84eaa421a3"
+    },
+    {
+      "path": "assets/video/low.mp4",
+      "bytes": 981058,
+      "sha256": "6fc96d3124de771bdc97431c8e87bb75a90e87612bf62da535a4af7e082ab4a9"
+    },
+    {
+      "path": "assets/video/moon-question.mp4",
+      "bytes": 3018925,
+      "sha256": "a6e3b9072457b7b5c9dd0412fa09a2cbf0f3a1d109f4e8895d9bf7329c698b5d"
+    },
+    {
+      "path": "assets/video/mutual-feedback.mp4",
+      "bytes": 931115,
+      "sha256": "16936f5112eb2b0c637bb44e3de28fe94ec69ea1bed650acd7f8033d38ca20cb"
+    },
+    {
+      "path": "assets/video/oneway-feedback.mp4",
+      "bytes": 668151,
+      "sha256": "1ef129d722eedc6a3e39c93bd3c81a91b8c8d09a6099068e7b77774779aafe45"
+    },
+    {
+      "path": "assets/video/opening.mp4",
+      "bytes": 16513476,
+      "sha256": "d15c184096589b46dd5b6c2232973fad9321339bfb50b04e6a9ba1845b4c2eb3"
+    },
+    {
+      "path": "assets/video/orbit.mp4",
+      "bytes": 1505163,
+      "sha256": "490df8d227debf45288259673cefba9e85f1aabd0f6ee0ce79c83aa37d4ebab9"
+    },
+    {
+      "path": "assets/video/reciprocal-explanation.mp4",
+      "bytes": 3166979,
+      "sha256": "40c336e5e9dfefc7907ec3b6af8903d796858a29fd12a9424d99c0c0b360e76b"
+    },
+    {
+      "path": "assets/video/relation-question.mp4",
+      "bytes": 1490317,
+      "sha256": "dcf212b5d1b0afef046c3ff8ddde67e93f28d4687bb41284700b7772cad04dc3"
+    },
+    {
+      "path": "assets/video/research.mp4",
+      "bytes": 2024672,
+      "sha256": "2ef0ca2cb2b21a7baf55dfa0be83dbb87824844ed48a69b72b8301b32fd34a05"
+    },
+    {
+      "path": "content/asset-index.json",
+      "bytes": 10592,
+      "sha256": "1aa5a1df0569303b6eebd43278fa907af1c88ab766974caa99e1b49cad2d9741"
+    },
+    {
+      "path": "content/edit-list.json",
+      "bytes": 5129,
+      "sha256": "9a7ef7e72ea73d498929009185b350608f46d15447cfbbe3d46efa67e87c5ac0"
+    },
+    {
+      "path": "content/media-probe.json",
+      "bytes": 6096,
+      "sha256": "9f8da08fad99243b271808d1c419549a4b81277bfabdd4de6a4f50581ce8c50d"
+    },
+    {
+      "path": "content/scientific-correction-windows.json",
+      "bytes": 1538,
+      "sha256": "9053dddbd56ad445a5fa9089ce5e03ad0b3155e12582c634382c7bc8d229459b"
+    },
+    {
+      "path": "content/source-info.json",
+      "bytes": 1041,
+      "sha256": "af10d39e283b05f05a1a236d44a224c4ac4ef813d68d235c2c8ff1a3059c6c41"
+    },
+    {
+      "path": "content/story-graph.json",
+      "bytes": 3765,
+      "sha256": "60c3a6ad5c73c50e54535f5d440858eee367e0cfe23e7113ea3096790a317b45"
+    },
+    {
+      "path": "content/transcripts/branches-machine.json",
+      "bytes": 9307,
+      "sha256": "ab86d9e21032a3942814c96e5b9c55e5414153db4387307967813d1e2a48e616"
+    },
+    {
+      "path": "content/transcripts/main-machine.json",
+      "bytes": 4477,
+      "sha256": "1d142f03c02c2e398ba46e164c3eacc2b0fd04bb031410862c3caa6015f91616"
+    },
+    {
+      "path": "content/ui-copy.zh.json",
+      "bytes": 2084,
+      "sha256": "f115c8b872ed83db2eacb5699dd7ea6715b571ce2383b2b6cea76c2409c4e96b"
+    },
+    {
+      "path": "content/素材与转写说明.md",
+      "bytes": 1668,
+      "sha256": "88c122f456b05d64c49f6997c695d6ddccb9cf6de78be795900cd43313c344a9"
+    },
+    {
+      "path": "design/01_三档速度.png",
+      "bytes": 821280,
+      "sha256": "83335385d142c68613b23ae3940224f205ae51fd7a6c426b814122b0abe8455d"
+    },
+    {
+      "path": "design/01_三档速度.svg",
+      "bytes": 178436,
+      "sha256": "a21729939ff30b4fa520c8cd611077d5bf092da354a44f502d66321e69afed60"
+    },
+    {
+      "path": "design/02_对白选择.png",
+      "bytes": 784100,
+      "sha256": "8de49f2dec7aacad66c8595f61f9bc5651064436c898e3c34dce79a677d536e6"
+    },
+    {
+      "path": "design/02_对白选择.svg",
+      "bytes": 192080,
+      "sha256": "3ddaf3efaaadda32aae64122ad195022c3a9c066827feac7646e008ce7854234"
+    },
+    {
+      "path": "design/03_手稿小游戏.png",
+      "bytes": 413480,
+      "sha256": "8f073af2f2c93db50367081a0bae5622151828eee0e4eb4eccef8a4d66fc874a"
+    },
+    {
+      "path": "design/03_手稿小游戏.svg",
+      "bytes": 990142,
+      "sha256": "f623a472a29b13fbceb0836c61f16601ec7c0e739efbcead80536cd590fcaf2f"
+    },
+    {
+      "path": "design/04_结尾发现.png",
+      "bytes": 534553,
+      "sha256": "74842c524118bd570e136852d56a63ff6e37f52436befca32b5c0c6e81e0cadd"
+    },
+    {
+      "path": "design/04_结尾发现.svg",
+      "bytes": 988335,
+      "sha256": "bf2a8579bd610b217b3d8f1cbac8c002da84900f69dc42c8e340edc7bd0cd76f"
+    },
+    {
+      "path": "design/design-tokens.json",
+      "bytes": 1028,
+      "sha256": "57b5a17770ed26e4eba7c71f2c9f71adfcf559390fca2ddd74021fa8141ae821"
+    },
+    {
+      "path": "design/index.html",
+      "bytes": 4196,
+      "sha256": "050dd747ceba0a9c132bd44d18a6b33b089d0957ffe70514371cf25a668ce6a0"
+    },
+    {
+      "path": "design/motion-spec.json",
+      "bytes": 914,
+      "sha256": "0b5a825051406ab66e497dc2f1f0fb73f14f8806eea4c24324f821c51d92dc7f"
+    },
+    {
+      "path": "design/source-research-108s.png",
+      "bytes": 740006,
+      "sha256": "ef064c59fa5ee45f723008c86692bd4091af3110b843b2434d0678af97e77c73"
+    },
+    {
+      "path": "design/static-preview-check.json",
+      "bytes": 737,
+      "sha256": "a6a1a29ffb4e2e90a862762cc4233fe03a25a0ada9a67772f47d6f53cfd47858"
+    },
+    {
+      "path": "design/选帧与结构稿说明.md",
+      "bytes": 1178,
+      "sha256": "621493ad8cb0b9a3dfa8f114c4b55cb3a0b1c9088a18ff75f766178896d6c53f"
+    },
+    {
+      "path": "reference/contact-sheets/branches-film-overview-01.jpg",
+      "bytes": 642950,
+      "sha256": "92df82eca9f0086b1712c0d3df3f3bde718ab2a610d196e0d6e33200232dcf12"
+    },
+    {
+      "path": "reference/contact-sheets/branches-film-overview-02.jpg",
+      "bytes": 728778,
+      "sha256": "80fcfa2e8fd1a6367e9507217eea9f35c48ad5d484544c99816b07638712d555"
+    },
+    {
+      "path": "reference/contact-sheets/branches-film-overview-03.jpg",
+      "bytes": 743670,
+      "sha256": "02ad63f0409f7dcc5fc3fb738da2a599d306be7ccbde0d95d4cb80af09d9e433"
+    },
+    {
+      "path": "reference/contact-sheets/branches-film-overview-04.jpg",
+      "bytes": 97456,
+      "sha256": "be70baf6b8daa2694bb6f707bca37a63ce9f94b72eaf9f5b0460f4531e479b5f"
+    },
+    {
+      "path": "reference/contact-sheets/main-film-overview-01.jpg",
+      "bytes": 480494,
+      "sha256": "520e337ebef003b3d2d24c7946a3700c97dc08c09f71ad4d077e50959086012e"
+    },
+    {
+      "path": "reference/contact-sheets/main-film-overview-02.jpg",
+      "bytes": 429531,
+      "sha256": "0b015d797258940cf041c004cc19b6580ffa53daa9e9a3cdaba489a05679aa97"
+    },
+    {
+      "path": "reference/contact-sheets/main-film-overview-03.jpg",
+      "bytes": 245760,
+      "sha256": "8fec871947e6dc51e3dff4b9e08c09da3d80cdf0150c5c52d7971cad4ab84d9c"
+    },
+    {
+      "path": "reference/contact-sheets/main-interaction-anchors-01.jpg",
+      "bytes": 396339,
+      "sha256": "bb31108618fd55e0285090f90494f4a304d5e7531237d3d2fe3f07a021998287"
+    },
+    {
+      "path": "reference/logic-only/story.js",
+      "bytes": 5003,
+      "sha256": "90fdd4c70737effcdfe80f50c550d8f36d9f2ea9d0062b5b21bfc0c59cf563b1"
+    },
+    {
+      "path": "reference/logic-only/tests/story.test.cjs",
+      "bytes": 3335,
+      "sha256": "9a921c772f3f27a86ec47370105edc07955992be0d3782f04127451e9bf67b67"
+    },
+    {
+      "path": "reference/logic-only/使用说明.md",
+      "bytes": 723,
+      "sha256": "80663e7573a5b477cb84ad154f971ad11f814650ebeb672108860519a7c19d52"
+    },
+    {
+      "path": "reference/rejected-ui/cover-rejected.png",
+      "bytes": 812530,
+      "sha256": "2212c673604bda92f5ae0943b57ed2ee546212fcb121e551d2c7ce4daa8971b4"
+    },
+    {
+      "path": "reference/rejected-ui/hypothesis-rejected.png",
+      "bytes": 810236,
+      "sha256": "8e192ed3fe6ff4660ff685a527467fd013d94d2d7c643fbc79518b53510590e9"
+    },
+    {
+      "path": "reference/rejected-ui/notebook-revised-rejected.png",
+      "bytes": 306222,
+      "sha256": "1895d1240e57e9531888018d2af24e4ab89e7f2e58fa36d55e2b2f7a978bdbc6"
+    },
+    {
+      "path": "reference/rejected-ui/reciprocal-rejected.png",
+      "bytes": 163738,
+      "sha256": "c4b2d880d93e87de8628d43666fdb203e60e7ec59206244e36c23d8bcf65c67e"
+    },
+    {
+      "path": "reference/rejected-ui/speed-rejected.png",
+      "bytes": 837259,
+      "sha256": "87a8480050be81e194862c1f33569cbe28532d2eca42e73318d3401d79289f96"
+    },
+    {
+      "path": "reference/rejected-ui/summary-rejected.png",
+      "bytes": 440323,
+      "sha256": "53873f65e969d942741782ee82ac7efca12c84aee90c0336e76a9b61463f5787"
+    },
+    {
+      "path": "reference/rejected-ui/请勿沿用旧界面.md",
+      "bytes": 918,
+      "sha256": "637b001dcabe7152b9b3e705330df53fb3bb3ba6da7992b02c853da461307961"
+    },
+    {
+      "path": "tools/build_design_boards.py",
+      "bytes": 5732,
+      "sha256": "9fd265f9b4c82522a6603b0c4afb7acf83af8bcd8e4ad19af94a0a48a4c1b7ed"
+    },
+    {
+      "path": "tools/verify_handoff.py",
+      "bytes": 4047,
+      "sha256": "1b5dd2e08e79a3b03151e34f159593c80a9df834a112d685a9819330f2de49d4"
+    }
+  ]
+}

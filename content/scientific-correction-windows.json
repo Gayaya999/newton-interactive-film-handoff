@@ -1,0 +1,32 @@
+{
+  "status": "inspection-ranges-not-approved-compositing-cuts",
+  "authority": "06_镜头剪辑与科学修正.md",
+  "windows": [
+    {
+      "id": "earth-moon-orbit",
+      "media_id": "moon-question",
+      "source": "main",
+      "source_inspection_seconds": [85.96, 91.2],
+      "clip_inspection_seconds": [0.56, 5.8],
+      "inspect_whole_clip_for_entry_and_exit": true,
+      "preserve_audio": true,
+      "required_visual": "地球为吸引中心，月亮绕地球；向前运动与向地球的吸引不能混为同一箭头。",
+      "boundary_rule": "在首帧错误图形前建立覆盖，错误图形完全结束后再退出；不得把本核查区间直接当成已核准淡入淡出切点。"
+    },
+    {
+      "id": "reciprocal-force",
+      "media_id": "reciprocal-explanation",
+      "source": "main",
+      "source_inspection_seconds": [130.4, 141.7],
+      "clip_inspection_seconds": [0, 11.3],
+      "inspect_whole_clip_for_entry_and_exit": true,
+      "preserve_audio": true,
+      "required_visual": "苹果受力指向地球，地球受力指向苹果；两力等长反向，标在各自受力物体处，不能表现成等幅运动。",
+      "boundary_rule": "逐帧核查全段，不继承旧版134秒才开始覆盖的配置。"
+    }
+  ],
+  "omitted_source_sections": [
+    {"source":"main","seconds":[112.96,117.24],"reason":"残句且四分之一缺必要条件；保持省略。"},
+    {"source":"main","seconds":[158.1,163.27],"reason":"密集结尾字幕；用可停留的三句发现收束。"}
+  ]
+}

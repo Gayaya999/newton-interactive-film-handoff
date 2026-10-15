@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-15",
+  "scope": "stream metadata, not frame-by-frame visual or audio approval",
+  "clips": [
+    {
+      "id": "accept",
+      "path": "assets/video/accept.mp4",
+      "duration": "00:00:08.07",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1182 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 129 kb/s (default)"
+    },
+    {
+      "id": "confirmation",
+      "path": "assets/video/confirmation.mp4",
+      "duration": "00:00:10.40",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1703 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)"
+    },
+    {
+      "id": "distance",
+      "path": "assets/video/distance.mp4",
+      "duration": "00:00:02.40",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1289 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 126 kb/s (default)"
+    },
+    {
+      "id": "ending",
+      "path": "assets/video/ending.mp4",
+      "duration": "00:00:15.90",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1233 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+    },
+    {
+      "id": "high",
+      "path": "assets/video/high.mp4",
+      "duration": "00:00:07.07",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1007 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 129 kb/s (default)"
+    },
+    {
+      "id": "low",
+      "path": "assets/video/low.mp4",
+      "duration": "00:00:08.07",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 831 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)"
+    },
+    {
+      "id": "moon-question",
+      "path": "assets/video/moon-question.mp4",
+      "duration": "00:00:12.90",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1732 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 129 kb/s (default)"
+    },
+    {
+      "id": "mutual-feedback",
+      "path": "assets/video/mutual-feedback.mp4",
+      "duration": "00:00:08.07",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 780 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 132 kb/s (default)"
+    },
+    {
+      "id": "oneway-feedback",
+      "path": "assets/video/oneway-feedback.mp4",
+      "duration": "00:00:08.07",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 523 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+    },
+    {
+      "id": "opening",
+      "path": "assets/video/opening.mp4",
+      "duration": "00:01:20.00",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1511 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)"
+    },
+    {
+      "id": "orbit",
+      "path": "assets/video/orbit.mp4",
+      "duration": "00:00:05.40",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2082 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 135 kb/s (default)"
+    },
+    {
+      "id": "reciprocal-explanation",
+      "path": "assets/video/reciprocal-explanation.mp4",
+      "duration": "00:00:11.30",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2103 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+    },
+    {
+      "id": "relation-question",
+      "path": "assets/video/relation-question.mp4",
+      "duration": "00:00:10.07",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1043 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)"
+    },
+    {
+      "id": "research",
+      "path": "assets/video/research.mp4",
+      "duration": "00:00:11.40",
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1282 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+    }
+  ]
+}

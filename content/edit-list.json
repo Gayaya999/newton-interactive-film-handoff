@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "sources": {
+    "main": {
+      "filename": "10月14日.mov",
+      "bytes": 181437959,
+      "sha256": "1a4c9b0e3cdf9b25e9a19a0d44cd8ee17dccfcda7617f72b9eb051a032246453",
+      "path": "assets/source-video/main-original.mov"
+    },
+    "branches": {
+      "filename": "10月14日(2).mov",
+      "bytes": 72819095,
+      "sha256": "14bcccf6f18dbd19d39176183ee61e5cfa4cd6d84b7c3ccdfde443a1eb778f08",
+      "path": "assets/source-video/branches-original.mov"
+    }
+  },
+  "clips": [
+    {
+      "id": "opening",
+      "source": "main",
+      "start": 0,
+      "end": 80,
+      "seconds": 80,
+      "path": "assets/video/opening.mp4",
+      "bytes": 16513476,
+      "sha256": "d15c184096589b46dd5b6c2232973fad9321339bfb50b04e6a9ba1845b4c2eb3"
+    },
+    {
+      "id": "orbit",
+      "source": "main",
+      "start": 80,
+      "end": 85.4,
+      "seconds": 5.4,
+      "path": "assets/video/orbit.mp4",
+      "bytes": 1505163,
+      "sha256": "490df8d227debf45288259673cefba9e85f1aabd0f6ee0ce79c83aa37d4ebab9"
+    },
+    {
+      "id": "moon-question",
+      "source": "main",
+      "start": 85.4,
+      "end": 98.3,
+      "seconds": 12.9,
+      "path": "assets/video/moon-question.mp4",
+      "bytes": 3018925,
+      "sha256": "a6e3b9072457b7b5c9dd0412fa09a2cbf0f3a1d109f4e8895d9bf7329c698b5d"
+    },
+    {
+      "id": "research",
+      "source": "main",
+      "start": 98.6,
+      "end": 110,
+      "seconds": 11.4,
+      "path": "assets/video/research.mp4",
+      "bytes": 2024672,
+      "sha256": "2ef0ca2cb2b21a7baf55dfa0be83dbb87824844ed48a69b72b8301b32fd34a05"
+    },
+    {
+      "id": "distance",
+      "source": "main",
+      "start": 110.2,
+      "end": 112.6,
+      "seconds": 2.4,
+      "path": "assets/video/distance.mp4",
+      "bytes": 429437,
+      "sha256": "179cf097fafb796620a48bb935e97e2dd87aa6ba0262b13136034ed852b3bc6d"
+    },
+    {
+      "id": "confirmation",
+      "source": "main",
+      "start": 119.2,
+      "end": 129.6,
+      "seconds": 10.4,
+      "path": "assets/video/confirmation.mp4",
+      "bytes": 2393056,
+      "sha256": "7940668efceee77fe95db3a195414a77c162e97a493336c58476a65ddaab82ec"
+    },
+    {
+      "id": "reciprocal-explanation",
+      "source": "main",
+      "start": 130.4,
+      "end": 141.7,
+      "seconds": 11.3,
+      "path": "assets/video/reciprocal-explanation.mp4",
+      "bytes": 3166979,
+      "sha256": "40c336e5e9dfefc7907ec3b6af8903d796858a29fd12a9424d99c0c0b360e76b"
+    },
+    {
+      "id": "ending",
+      "source": "main",
+      "start": 142.2,
+      "end": 158.1,
+      "seconds": 15.9,
+      "path": "assets/video/ending.mp4",
+      "bytes": 2725497,
+      "sha256": "523eb24faf77c8b79cc2305c169482481894fd7ed20fec11ad962b7bf1ed43ce"
+    },
+    {
+      "id": "low",
+      "source": "branches",
+      "start": 0,
+      "end": 8.066667,
+      "seconds": 8.067,
+      "path": "assets/video/low.mp4",
+      "bytes": 981058,
+      "sha256": "6fc96d3124de771bdc97431c8e87bb75a90e87612bf62da535a4af7e082ab4a9"
+    },
+    {
+      "id": "high",
+      "source": "branches",
+      "start": 8.066667,
+      "end": 15.133333,
+      "seconds": 7.067,
+      "path": "assets/video/high.mp4",
+      "bytes": 1013787,
+      "sha256": "f3ee855664dcacd43d6f36a38400cf48f394ecddef594d99feb1df84eaa421a3"
+    },
+    {
+      "id": "accept",
+      "source": "branches",
+      "start": 15.133333,
+      "end": 23.2,
+      "seconds": 8.067,
+      "path": "assets/video/accept.mp4",
+      "bytes": 1333653,
+      "sha256": "c829f069213706221da149f15b66839eae607c0817c452ffc3a5653735bad1ce"
+    },
+    {
+      "id": "relation-question",
+      "source": "branches",
+      "start": 23.2,
+      "end": 33.266667,
+      "seconds": 10.067,
+      "path": "assets/video/relation-question.mp4",
+      "bytes": 1490317,
+      "sha256": "dcf212b5d1b0afef046c3ff8ddde67e93f28d4687bb41284700b7772cad04dc3"
+    },
+    {
+      "id": "oneway-feedback",
+      "source": "branches",
+      "start": 33.266667,
+      "end": 41.333333,
+      "seconds": 8.067,
+      "path": "assets/video/oneway-feedback.mp4",
+      "bytes": 668151,
+      "sha256": "1ef129d722eedc6a3e39c93bd3c81a91b8c8d09a6099068e7b77774779aafe45"
+    },
+    {
+      "id": "mutual-feedback",
+      "source": "branches",
+      "start": 41.333333,
+      "end": 49.4,
+      "seconds": 8.067,
+      "path": "assets/video/mutual-feedback.mp4",
+      "bytes": 931115,
+      "sha256": "16936f5112eb2b0c637bb44e3de28fe94ec69ea1bed650acd7f8033d38ca20cb"
+    }
+  ],
+  "posters": {
+    "cover": "assets/stills/cover.jpg",
+    "speed": "assets/stills/speed.jpg",
+    "hypothesis": "assets/stills/hypothesis.jpg",
+    "reciprocity": "assets/stills/reciprocity.jpg",
+    "ending": "assets/stills/ending.jpg"
+  },
+  "legacy_edit_notes": [
+    "原片113-117秒不完整的四分之一台词未纳入；距离结论保留110.2-112.6秒。",
+    "85.4秒起月亮演示、134秒后相互作用箭头由网页科学示意覆盖，保留原片声音。",
+    "原片158秒之后短暂黑底长文替换为可阅读的互动结算。"
+  ],
+  "authority": "Cut provenance only. Follow 06 for visual correction and actual transition boundaries."
+}

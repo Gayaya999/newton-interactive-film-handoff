@@ -1,0 +1,172 @@
+{
+  "version": "handoff-1.0",
+  "status": "design-proposal-not-implemented",
+  "entry": "welcome",
+  "nodes": {
+    "opening": {
+      "kind": "video",
+      "media": "opening",
+      "on_ended": "speed"
+    },
+    "low": {
+      "kind": "video",
+      "media": "low",
+      "on_ended": "retry"
+    },
+    "high": {
+      "kind": "video",
+      "media": "high",
+      "on_ended": "retry"
+    },
+    "orbit": {
+      "kind": "video",
+      "media": "orbit",
+      "on_ended": "moon-question"
+    },
+    "moon-question": {
+      "kind": "video",
+      "media": "moon-question",
+      "on_ended": "hypothesis"
+    },
+    "accept": {
+      "kind": "video",
+      "media": "accept",
+      "on_ended": "research"
+    },
+    "research": {
+      "kind": "video",
+      "media": "research",
+      "on_ended": "notebook"
+    },
+    "distance": {
+      "kind": "video",
+      "media": "distance",
+      "on_ended": "confirmation"
+    },
+    "confirmation": {
+      "kind": "video",
+      "media": "confirmation",
+      "on_ended": "relation-question"
+    },
+    "relation-question": {
+      "kind": "video",
+      "media": "relation-question",
+      "on_ended": "reciprocity"
+    },
+    "oneway-feedback": {
+      "kind": "video",
+      "media": "oneway-feedback",
+      "on_ended": "reciprocal-explanation"
+    },
+    "mutual-feedback": {
+      "kind": "video",
+      "media": "mutual-feedback",
+      "on_ended": "reciprocal-explanation"
+    },
+    "reciprocal-explanation": {
+      "kind": "video",
+      "media": "reciprocal-explanation",
+      "on_ended": "ending"
+    },
+    "ending": {
+      "kind": "video",
+      "media": "ending",
+      "on_ended": "summary"
+    },
+    "welcome": {
+      "kind": "entry",
+      "on_start": "opening"
+    },
+    "speed": {
+      "kind": "three-stop-choice",
+      "initial_selection": null,
+      "commit": "explicit-launch",
+      "choices": {
+        "1": "low",
+        "2": "orbit",
+        "3": "high"
+      }
+    },
+    "retry": {
+      "kind": "feedback",
+      "on_retry": "speed"
+    },
+    "hypothesis": {
+      "kind": "dialogue-choice",
+      "save_original": true,
+      "choices": {
+        "constant": "accept",
+        "weakens": "accept"
+      }
+    },
+    "notebook": {
+      "kind": "minigame",
+      "on_valid_commit": "distance"
+    },
+    "reciprocity": {
+      "kind": "dialogue-choice",
+      "choices": {
+        "one-way": "oneway-feedback",
+        "mutual": "mutual-feedback"
+      }
+    },
+    "summary": {
+      "kind": "ending",
+      "on_restart": "opening",
+      "on_return": "welcome-or-approved-same-origin-entry"
+    }
+  },
+  "notebook": {
+    "type": "model-comparison-not-historical-evidence",
+    "distances": [
+      1,
+      1.5,
+      2
+    ],
+    "reference": [
+      1,
+      0.4444444444444444,
+      0.25
+    ],
+    "predictions": {
+      "constant": [
+        1,
+        1,
+        1
+      ],
+      "weakens": [
+        1,
+        0.4444444444444444,
+        0.25
+      ]
+    },
+    "distance_origin": "central-body-center",
+    "visible_labels": [
+      "近",
+      "中",
+      "远",
+      "强",
+      "弱",
+      "预测",
+      "参考"
+    ],
+    "steps": [
+      "align-two-marks",
+      "inspect-and-record-three-positions",
+      "verify",
+      "revise-if-mismatch",
+      "reinspect-after-revision",
+      "commit"
+    ],
+    "completion_guards": [
+      "aligned",
+      "three-recorded-for-current-revision",
+      "verified-current-revision",
+      "currentHypothesis=weakens",
+      "constant-origin-requires-mismatch-then-revision"
+    ],
+    "single_primary_action_slot": true,
+    "details_document": "03_剧情交互与小游戏.md"
+  },
+  "scope": "Three plot choices and one notebook game. All video end transitions require current media-session validation."
+}

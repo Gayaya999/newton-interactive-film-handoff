@@ -1,0 +1,55 @@
+{
+  "status": "proposal-awaiting-user-visual-review",
+  "canvas": [
+    1280,
+    720
+  ],
+  "colors": {
+    "backdrop": "#111411",
+    "localShade": "#151A16",
+    "text": "#F1EBDD",
+    "secondary": "#B5B3A5",
+    "brass": "#C4A875",
+    "discrepancy": "#CB967D",
+    "paper": "#DCCDAA",
+    "ink": "#393C32"
+  },
+  "fonts": {
+    "display": "Songti SC, STSong, SimSun, serif",
+    "body": "PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif"
+  },
+  "fontSizesDesignPx": {
+    "title": [
+      64,
+      80
+    ],
+    "task": [
+      26,
+      30
+    ],
+    "option": [
+      22,
+      24
+    ],
+    "subtitle": [
+      24,
+      28
+    ],
+    "auxiliary": [
+      16,
+      18
+    ]
+  },
+  "safeInsetsDesignPx": {
+    "horizontal": 64,
+    "vertical": 36
+  },
+  "interactiveHitCssPx": 44,
+  "mobileTextCssPx": [
+    16,
+    18
+  ],
+  "accentAreaBudget": 0.05,
+  "defaultMainActionCount": 1,
+  "rule": "The diagram dimensions are a desktop design base, not instructions to shrink the entire UI below mobile legibility."
+}

@@ -1,0 +1,69 @@
+{
+  "version": "proposal-1.0",
+  "entry": {
+    "title": "苹果之外",
+    "subtitle": "一个落下的苹果，一次追向月亮的思考。",
+    "start": "开始故事",
+    "resume": "继续故事"
+  },
+  "speed": {
+    "task": "调整速度，让小球绕过地面。",
+    "hint": "同一起点，只改变向前的速度。",
+    "stops": [
+      "Ⅰ",
+      "Ⅱ",
+      "Ⅲ"
+    ],
+    "commit": "发射",
+    "low": "这一次，小球落回了地面。",
+    "high": "这一次，小球飞离了。",
+    "retry": "再试一次"
+  },
+  "hypothesis": {
+    "constant": "也许远近并不影响吸引。",
+    "weakens": "也许越远，吸引就越弱。"
+  },
+  "notebook": {
+    "tasks": [
+      "拖动纸角，对齐标记。",
+      "拖动观察窗，找出差异。",
+      "核对这张预测。"
+    ],
+    "primary_actions": [
+      "记下这里",
+      "核对预测",
+      "修正为随距离减弱",
+      "把发现写下"
+    ],
+    "one_primary_action_at_a_time": true,
+    "mismatch": "近处对上了，远处却没有。这个预测需要修正。",
+    "verified": "这张预测与本页参考模型一致。",
+    "model_note": "模型推演示意，非牛顿原始观测记录。"
+  },
+  "reciprocity": {
+    "one-way": "应该只有苹果向地球靠近。",
+    "mutual": "地球也会向苹果靠近一点。"
+  },
+  "summary": {
+    "discoveries": [
+      "向前运动，也在下落。",
+      "距离变远，吸引减弱。",
+      "地球与苹果，相互吸引。"
+    ],
+    "restart": "再走一次",
+    "return": "返回入口"
+  },
+  "media": {
+    "loading": "正在载入影片…",
+    "retry": "重试本段",
+    "resume": "继续观看",
+    "autoplay": "点击继续播放",
+    "missing": "这段影片暂时无法打开，请重试。"
+  },
+  "settings": {
+    "mute": "已静音",
+    "sound": "声音开启",
+    "reduced_motion": "减少界面动效；影片中的动作仍会保留。"
+  },
+  "editorial_note": "Proposed copy. Claude must fit real frames and test legibility; baked subtitles are not duplicated."
+}

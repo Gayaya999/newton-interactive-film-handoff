@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15",
+  "browser": "155.0.8059.40",
+  "scope": "static planning boards and review page; no game implemented",
+  "boards": [
+    {
+      "name": "01_三档速度",
+      "canvas": [
+        1280,
+        720
+      ],
+      "textOverflow": []
+    },
+    {
+      "name": "02_对白选择",
+      "canvas": [
+        1280,
+        720
+      ],
+      "textOverflow": []
+    },
+    {
+      "name": "03_手稿小游戏",
+      "canvas": [
+        1280,
+        720
+      ],
+      "textOverflow": []
+    },
+    {
+      "name": "04_结尾发现",
+      "canvas": [
+        1280,
+        720
+      ],
+      "textOverflow": []
+    }
+  ],
+  "previewImageCount": 4,
+  "pageOverflowDesktop": false,
+  "pageOverflowMobile": false
+}
